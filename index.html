@@ -9,11 +9,16 @@
     <!--
     - favicon
   -->
-    <link
+    <!-- <link
       rel="shortcut icon"
       href="./assets/images/logo.ico"
       type="image/x-icon"
-    />
+    /> -->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
 
     <!--
     - custom css link
@@ -77,8 +82,8 @@
               <div class="contact-info">
                 <p class="contact-title">Email</p>
 
-                <a href="mailto:krunaldhavle1999@gmail.com" class="contact-link"
-                  >krunaldhavle1999@gmail.com</a
+                <a href="mailto:krunaldhavle0209@gmail.com" class="contact-link"
+                  >krunaldhavle0209@gmail.com</a
                 >
               </div>
             </li>
@@ -172,9 +177,9 @@
               <button class="navbar-link" data-nav-link>Portfolio</button>
             </li>
 
-            <li class="navbar-item">
+            <!-- <li class="navbar-item">
               <button class="navbar-link" data-nav-link>Blog</button>
-            </li>
+            </li> -->
 
             <li class="navbar-item">
               <button class="navbar-link" data-nav-link>Contact</button>
@@ -216,6 +221,22 @@
               continuing to sharpen my skills every day.
             </p>
           </section>
+          <div style="margin-top: 1rem; margin-bottom: 2rem;">
+  <a href="./Data/KRUNAL_DHAVLE_FULLSTACK_CV.pdf" download style="
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e9b509;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease;
+  " onmouseover="this.style.backgroundColor='#d1a407'" onmouseout="this.style.backgroundColor='#e9b509'">
+    ⬇ Download Resume
+  </a>
+</div>
 
           <!--
           - service
@@ -474,8 +495,60 @@
           </div>
 
           <!--
-          - clients
+          - skills
         -->
+          <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Frontend Development ( React, JavaScript, TypeScript, Html, Css, Redux, Tailwind Css )</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Backend Development ( Node.js, Java, Python, Spring Boot, MySQL, MongoDB, PostgreSQL, Redis. )</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Devops ( AWS, Docker, Kubernetes, Jenkins, Nginx, Linux, Git, GitHub, CI/CD pipelines )</h5>
+                  <data value="70">70%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Architecture & Tools ( Microservice Architecture , Kafka ) </h5>
+                  <data value="50">60%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 50%"></div>
+                </div>
+              </li>
+
+              
+
+            </ul>
+          </section>
 
           <!-- <section class="clients">
             <h3 class="h3 clients-title">Clients</h3>
@@ -592,37 +665,6 @@
               </li>
 
               <!-- extra -->
-
-              <li class="clients-item">
-                <a href="#">
-                  <img src="./assets/images/tech/mysql.png" alt="client logo" />
-                </a>
-              </li>
-              <li class="clients-item">
-                <a href="#">
-                  <img src="./assets/images/tech/mysql.png" alt="client logo" />
-                </a>
-              </li>
-              <li class="clients-item">
-                <a href="#">
-                  <img src="./assets/images/tech/mysql.png" alt="client logo" />
-                </a>
-              </li>
-              <li class="clients-item">
-                <a href="#">
-                  <img src="./assets/images/tech/mysql.png" alt="client logo" />
-                </a>
-              </li>
-              <li class="clients-item">
-                <a href="#">
-                  <img src="./assets/images/tech/mysql.png" alt="client logo" />
-                </a>
-              </li>
-              <li class="clients-item">
-                <a href="#">
-                  <img src="./assets/images/tech/mysql.png" alt="client logo" />
-                </a>
-              </li>
             </ul>
           </section>
         </article>
@@ -635,6 +677,120 @@
           <header>
             <h2 class="h2 article-title">Resume</h2>
           </header>
+
+          <div style="margin-top: 1rem; margin-bottom: 2rem;">
+  <a href="./Data/KRUNAL_DHAVLE_FULLSTACK_CV.pdf" download style="
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e9b509;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease;
+  " onmouseover="this.style.backgroundColor='#d1a407'" onmouseout="this.style.backgroundColor='#e9b509'">
+    ⬇ Download Resume
+  </a>
+</div>
+
+          
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">MERN Stack Developer ( Sync Solutions | Remote Full Time | Pune )</h4>
+
+                <span>09/2024 — Present</span>
+
+                <p >
+    
+    <ul class="timeline-list">
+      
+      <li class="timeline-text" style="color: #e9b509; font-weight: 400; font-style: normal; margin-bottom: 0.5rem; margin-top: 1rem;">
+  Working full-time on two enterprise-level real estate projects using the MERN stack and AWS.
+</li>
+      <li class="timeline-item timeline-text">Built and maintained MERN stack apps with modular architecture and reusable components, accelerating development by 30% and improving stability.</li>
+      <li class="timeline-item timeline-text">Developed “Red-Riksha,” a Pune-based ride-sharing app, with scalable backends and WebSockets for real-time tracking, boosting user retention in beta.</li>
+      <li class="timeline-item timeline-text">Integrated Kafka for asynchronous microservices to optimize booking workflows and reduce peak-time delays by 40%.</li>
+      <li class="timeline-item timeline-text">Managed AWS infrastructure (EC2, S3, CloudFront, RDS) and automated CI/CD pipelines, achieving 99.9% uptime and lowering cloud costs by 20%.</li>
+      <li class="timeline-item timeline-text">Optimized API requests with JavaScript and caching strategies, cutting page load times by 20%.</li>
+      <li class="timeline-item timeline-text">Delivered customizable ecommerce platforms that enabled small businesses to grow their digital presence.</li>
+      <li class="timeline-item timeline-text">Implemented real-time order and inventory sync using WebSockets, improving operational accuracy and reducing mismatches by 50%.</li>
+    </ul>
+  </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Freelance Full Stack Developer ( United Kingdom )</h4>
+
+                <span>03/2024 – 08/2024</span>
+
+                <p >
+    
+    <ul class="timeline-list">
+      
+      <li class="timeline-text" style="color: #e9b509; font-weight: 400; font-style: normal; margin-bottom: 0.5rem; margin-top: 1rem;">
+  Delivered scalable full-stack solutions as a freelance developer, leading end-to-end project execution with a strong focus on microservices, performance, and client satisfaction.
+</li>
+      <li class="timeline-item timeline-text">Developed and deployed 3+ end-to-end projects using Microservices, RabbitMQ, Redis, Docker, and Jenkins. 
+</li>
+      <li class="timeline-item timeline-text">Defined project scope and translated client requirements into clear, actionable plans. 
+</li>
+      <li class="timeline-item timeline-text">Led full-cycle project execution, ensuring timely delivery and smooth collaboration with stakeholders. 
+</li>
+      <li class="timeline-item timeline-text">Achieved 95%+ positive client satisfaction by delivering high-quality solutions and maintaining proactive 
+communication. </li>
+      <li class="timeline-item timeline-text">Wrote and reviewed clean, scalable, and secure code using Node.js and React.js, ensuring high 
+performance under load</li>
+      
+    </ul>
+  </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Internship – Full Stack Developer 
+ ( SkyeLint Technologies Pvt. Ltd.  |  Mumbai )</h4>
+
+                <span>08/2021 – 03/2022</span>
+
+                <p >
+    
+    <ul class="timeline-list">
+      
+      <li class="timeline-text" style="color: #e9b509; font-weight: 400; font-style: normal; margin-bottom: 0.5rem; margin-top: 1rem;">
+  Started as a trainee for 2 months, transitioned into a full-time intern for 6 months.
+</li>
+<li class="timeline-item timeline-text">Developed responsive web applications using React.js and TypeScript, enhancing user engagement by 25%. 
+
+
+</li>
+      <li class="timeline-item timeline-text">Refactored SQL and NoSQL queries and indexed databases, accelerating data retrieval speed by 15%. 
+
+</li>
+      <li class="timeline-item timeline-text">Contributed to the backend API using Node.js and Spring Boot for legacy software, improving code 
+maintainability and reducing debug time by 30% 
+</li>
+      <li class="timeline-item timeline-text">Assisted DevOps team in Dockerizing key modules and streamlining deployments during CI/CD cycles. 
+ 
+</li>
+      
+      
+    </ul>
+  </p>
+              </li>
+
+            </ol>
+          </section>
 
           <section class="timeline">
             <div class="title-wrapper">
@@ -652,88 +808,36 @@
                 <span>2022 — 2024</span>
 
                 <p class="timeline-text">
-                  Nemo enims ipsam voluptatem, blanditiis praesentium voluptum
-                  delenit atque corrupti, quos dolores et quas molestias
-                  exceptur.
+                  MSc in Advance Computer Science with a focus on software
+                  engineering, data structures, algorithms, and full-stack web
+                  development. Developed strong analytical and problem-solving
+                  skills through academic projects and practical coursework.
+                  Completed a dissertation on Stock Control Manangement Systems.
                 </p>
+                <span ">Grade - 3.4/4 </span>
               </li>
 
               <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">New york academy of art</h4>
+                <h4 class="h4 timeline-item-title">University of Mumbai</h4>
 
-                <span>2006 — 2007</span>
-
-                <p class="timeline-text">
-                  Ratione voluptatem sequi nesciunt, facere quisquams facere
-                  menda ossimus, omnis voluptas assumenda est omnis..
-                </p>
-              </li>
-
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  High school of art and design
-                </h4>
-
-                <span>2002 — 2004</span>
+                <span>2018 — 2021</span>
 
                 <p class="timeline-text">
-                  Duis aute irure dolor in reprehenderit in voluptate, quila
-                  voluptas mag odit aut fugit, sed consequuntur magni dolores
-                  eos.
+                  Completed Bachelor of Science (BSc) in Computer Science with a
+                  strong foundation in programming, databases, operating
+                  systems, and computer networks. Participated in academic
+                  projects and coursework that developed both theoretical
+                  knowledge and practical skills in software development.
                 </p>
+                <span>Grade - 8.4/10 </span>
+
               </li>
+
+              
             </ol>
           </section>
 
-          <section class="timeline">
-            <div class="title-wrapper">
-              <div class="icon-box">
-                <ion-icon name="book-outline"></ion-icon>
-              </div>
-
-              <h3 class="h3">Experience</h3>
-            </div>
-
-            <ol class="timeline-list">
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">Creative director</h4>
-
-                <span>2015 — Present</span>
-
-                <p class="timeline-text">
-                  Nemo enim ipsam voluptatem blanditiis praesentium voluptum
-                  delenit atque corrupti, quos dolores et qvuas molestias
-                  exceptur.
-                </p>
-              </li>
-
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">Art director</h4>
-
-                <span>2013 — 2015</span>
-
-                <p class="timeline-text">
-                  Nemo enims ipsam voluptatem, blanditiis praesentium voluptum
-                  delenit atque corrupti, quos dolores et quas molestias
-                  exceptur.
-                </p>
-              </li>
-
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">Web designer</h4>
-
-                <span>2010 — 2013</span>
-
-                <p class="timeline-text">
-                  Nemo enims ipsam voluptatem, blanditiis praesentium voluptum
-                  delenit atque corrupti, quos dolores et quas molestias
-                  exceptur.
-                </p>
-              </li>
-            </ol>
-          </section>
-
-          <section class="skill">
+          <!-- <section class="skill">
             <h3 class="h3 skills-title">My skills</h3>
 
             <ul class="skills-list content-card">
@@ -781,7 +885,7 @@
                 </div>
               </li>
             </ul>
-          </section>
+          </section> -->
         </article>
 
         <!--
@@ -800,16 +904,14 @@
               </li>
 
               <li class="filter-item">
-                <button data-filter-btn>Web design</button>
+                <button data-filter-btn>Web Apps</button>
               </li>
 
               <li class="filter-item">
-                <button data-filter-btn>Applications</button>
+                <button data-filter-btn>Java</button>
               </li>
 
-              <li class="filter-item">
-                <button data-filter-btn>Web development</button>
-              </li>
+              
             </ul>
 
             <div class="filter-select-box">
@@ -829,235 +931,207 @@
                 </li>
 
                 <li class="select-item">
-                  <button data-select-item>Web design</button>
+                  <button data-select-item>Web Apps</button>
                 </li>
 
                 <li class="select-item">
-                  <button data-select-item>Applications</button>
+                  <button data-select-item>Java</button>
                 </li>
 
-                <li class="select-item">
-                  <button data-select-item>Web development</button>
-                </li>
+                
               </ul>
             </div>
+
+            
+
 
             <ul class="project-list">
               <li
                 class="project-item active"
                 data-filter-item
-                data-category="web development"
+                data-category="web apps"
               >
-                <a href="#">
+                <a href="https://github.com/krunal1999/sterling-Web-App" target="_blank">
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline"></ion-icon>
                     </div>
 
                     <img
-                      src="./assets/images/project-1.jpg"
+                      src="./assets/sterling-Web-App (pvt).jpeg"
                       alt="finance"
                       loading="lazy"
                     />
                   </figure>
 
-                  <h3 class="project-title">Finance</h3>
-
-                  <p class="project-category">Web development</p>
+                  <h3 class="project-title">Sterling Web App (pvt) </h3>
+                  <p class="project-category">Application for Landlord to manage property and expenses</p>
                 </a>
               </li>
 
               <li
                 class="project-item active"
                 data-filter-item
-                data-category="web development"
+                data-category="web apps"
               >
-                <a href="#">
+                <a href="https://github.com/krunal1999/stock-control-ts" target="_blank">
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline"></ion-icon>
                     </div>
 
                     <img
-                      src="./assets/images/project-2.png"
-                      alt="orizon"
+                      src="./assets/inventoryman.jpeg"
+                      alt="finance"
                       loading="lazy"
                     />
                   </figure>
 
-                  <h3 class="project-title">Orizon</h3>
-
-                  <p class="project-category">Web development</p>
+                  <h3 class="project-title">Stock Control (pvt) </h3>
+                  <p class="project-category">Application for Inventory Mangement in MERN Stack</p>
                 </a>
               </li>
 
               <li
                 class="project-item active"
                 data-filter-item
-                data-category="web design"
+                data-category="web apps"
               >
-                <a href="#">
+                <a href="https://github.com/krunal1999/choices-extras-management" target="_blank">
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline"></ion-icon>
                     </div>
 
                     <img
-                      src="./assets/images/project-3.jpg"
-                      alt="fundo"
+                      src="./assets/choices-extras-management.jpeg"
+                      alt="finance"
                       loading="lazy"
                     />
                   </figure>
 
-                  <h3 class="project-title">Fundo</h3>
-
-                  <p class="project-category">Web design</p>
+                  <h3 class="project-title">Choices Extras Management (pvt) </h3>
+                  <p class="project-category">Application for Real Estate to Manage / sell properties with 3D integration</p>
                 </a>
               </li>
 
               <li
                 class="project-item active"
                 data-filter-item
-                data-category="applications"
+                data-category="web apps"
               >
-                <a href="#">
+                <a href="https://github.com/krunal1999/WhiteBoard_frontend" target="_blank">
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline"></ion-icon>
                     </div>
 
                     <img
-                      src="./assets/images/project-4.png"
-                      alt="brawlhalla"
+                      src="./assets/WhiteBoard Frontend.jpeg"
+                      alt="finance"
                       loading="lazy"
                     />
                   </figure>
 
-                  <h3 class="project-title">Brawlhalla</h3>
-
-                  <p class="project-category">Applications</p>
+                  <h3 class="project-title">WhiteBoard Frontend  </h3>
+                  <p class="project-category">Application for Real time Drawing shapes</p>
                 </a>
               </li>
 
               <li
                 class="project-item active"
                 data-filter-item
-                data-category="web design"
+                data-category="web apps"
               >
-                <a href="#">
+                <a href="https://github.com/krunal1999/Full_Stack_Web_App" target="_blank">
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline"></ion-icon>
                     </div>
 
                     <img
-                      src="./assets/images/project-5.png"
-                      alt="dsm."
+                      src="./assets/Authentication Using JWT.jpeg"
+                      alt="finance"
                       loading="lazy"
                     />
                   </figure>
 
-                  <h3 class="project-title">DSM.</h3>
-
-                  <p class="project-category">Web design</p>
+                  <h3 class="project-title">Full Stack Web App </h3>
+                  <p class="project-category">Authentication Using JWT</p>
                 </a>
               </li>
 
               <li
                 class="project-item active"
                 data-filter-item
-                data-category="web design"
+                data-category="web apps"
               >
-                <a href="#">
+                <a href="https://github.com/krunal1999/Hospital-management-system" target="_blank">
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline"></ion-icon>
                     </div>
 
                     <img
-                      src="./assets/images/project-6.png"
-                      alt="metaspark"
+                      src="./assets/Hospital management system.jpeg"
+                      alt="finance"
                       loading="lazy"
                     />
                   </figure>
 
-                  <h3 class="project-title">MetaSpark</h3>
-
-                  <p class="project-category">Web design</p>
+                  <h3 class="project-title">Hospital Management System</h3>
+                  <p class="project-category">Application for NHS services</p>
                 </a>
               </li>
 
               <li
                 class="project-item active"
                 data-filter-item
-                data-category="web development"
+                data-category="java"
               >
-                <a href="#">
+                <a href="https://github.com/krunal1999/stock_control_management_frontend" target="_blank">
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline"></ion-icon>
                     </div>
 
                     <img
-                      src="./assets/images/project-7.png"
-                      alt="summary"
+                      src="./assets/stock control management 1.jpeg"
+                      alt="finance"
                       loading="lazy"
                     />
                   </figure>
 
-                  <h3 class="project-title">Summary</h3>
-
-                  <p class="project-category">Web development</p>
+                  <h3 class="project-title">Stock Control Management </h3>
+                  <p class="project-category">Application for stock control warehouse management</p>
                 </a>
               </li>
 
               <li
                 class="project-item active"
                 data-filter-item
-                data-category="applications"
+                data-category="java"
               >
-                <a href="#">
+                <a href="https://github.com/krunal1999/Crypto-Saver" target="_blank">
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline"></ion-icon>
                     </div>
 
                     <img
-                      src="./assets/images/project-8.jpg"
-                      alt="task manager"
+                      src="./assets/Crypto-Saver.jpeg"
+                      alt="finance"
                       loading="lazy"
                     />
                   </figure>
 
-                  <h3 class="project-title">Task Manager</h3>
-
-                  <p class="project-category">Applications</p>
+                  <h3 class="project-title">Crypto Saver</h3>
+                  <p class="project-category">Application for sharing files with encryption</p>
                 </a>
               </li>
+              
 
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="web development"
-              >
-                <a href="#">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/project-9.png"
-                      alt="arrival"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Arrival</h3>
-
-                  <p class="project-category">Web development</p>
-                </a>
-              </li>
+             
             </ul>
           </section>
         </article>
@@ -1066,7 +1140,7 @@
         - #BLOG
       -->
 
-        <article class="blog" data-page="blog">
+        <!-- <article class="blog" data-page="blog">
           <header>
             <h2 class="h2 article-title">Blog</h2>
           </header>
@@ -1256,7 +1330,7 @@
               </li>
             </ul>
           </section>
-        </article>
+        </article> -->
 
         <!--
         - #CONTACT
@@ -1270,18 +1344,19 @@
           <section class="mapbox" data-mapbox>
             <figure>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d77482.20235188465!2d-1.2135007581096078!3d52.63615270072951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487742ab49b76c73%3A0x9a151d2a6fb49cb8!2sLeicester!5e0!3m2!1sen!2suk!4v1748994070586!5m2!1sen!2suk"
                 width="400"
                 height="300"
                 loading="lazy"
               ></iframe>
+             
             </figure>
           </section>
 
           <section class="contact-form">
             <h3 class="h3 form-title">Contact Form</h3>
 
-            <form action="#" class="form" data-form>
+            <form action="https://formspree.io/f/myzjyrba"  method="POST" class="form" data-form>
               <div class="input-wrapper">
                 <input
                   type="text"
